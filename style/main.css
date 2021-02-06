@@ -1,0 +1,110 @@
+.drap {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+    /* \/ square-big*/
+
+  .square-big {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    background-color:#00A2FF;
+}
+
+.square-big:hover {
+    background-color:wheat;
+    z-index: 15;
+}
+
+    /* /\ square-big*/
+
+    /* \/ square-small*/
+
+.square-small {
+    position: absolute;
+    left: 37.5%;
+    top: 37.5%;
+    width: 25%;
+    height: 25%;
+    background-color: #F8BA00;
+    border-radius: 10%;
+    z-index: 5;
+}
+
+    /* /\ square-small*/
+
+    /* \/ circle*/
+
+.circle {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color:#EE220C;
+}
+
+    /* /\ circle*/
+
+    /* \/ circle-top-left*/
+
+.circle-top-left {
+    position: absolute;
+    top: 12.5%;
+    left: 12.5%;
+}
+.circle-top-left:hover {
+    background-color: silver;
+    z-index: 10;
+}
+
+    /* /\ circle-top-left*/
+
+    /* \/ circle-top-right*/
+
+.circle-top-right {
+    position: absolute;
+    top: 12.5%;
+    left: 62.5%;
+}
+
+.circle-top-right:hover {
+    background-color: aquamarine;
+    z-index: 10;
+}
+
+    /* /\ circle-top-right*/
+
+    /* \/ .circle-bottom-right*/
+
+.circle-bottom-right {
+    position: absolute;
+    top: 62.5%;
+    left: 62.5%;
+}
+
+.circle-bottom-right:hover {
+    background-color: yellowgreen;
+    z-index: 10;
+}
+
+    /* /\ .circle-bottom-right*/
+
+    /* \/ .circle-bottom-left*/
+
+    .circle-bottom-left {
+    position: absolute;
+    top: 62.5%;
+    left: 12.5%;
+}
+
+.circle-bottom-left:hover {
+    background-color: palevioletred;
+    z-index: 10;
+}
+
+    /* /\ .circle-bottom-left*/
